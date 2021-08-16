@@ -1,5 +1,52 @@
 body * {
   outline: 1px solid lightgrey;
 }
-
+#heading{
+  background-color:#008080;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 70px;
+  }
+  .flex-rectangles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .rectangle1{
+    flex-basis: auto;
+    height: 190px;
+    width: 280px;
+    margin: 60px;
+    background-color: forestgreen;
+  }
+  .my-flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .my-flex-block{
+    flex-basis: auto;
+    height: 380px;
+    width: 380px;
+    margin: 2px;
+  }
+  #item1{
+    background-color: red;
+  }
+  #item2{
+    background-color: cornflowerblue;
+  }
+  #item3{
+    background-color: yellow;
+  }
+  #bottom{
+    background-color: grey;
+    margin: 30px;
+    height: 70px;
+  }
 
