@@ -1,52 +1,55 @@
 body * {
-  outline: 1px solid lightgrey;
+  outline: 1px solid lightgray;
 }
-#heading{
-  background-color:#008080;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 350px;
-  height: 70px;
-  }
-  .flex-rectangles{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-  }
-  .rectangle1{
-    flex-basis: auto;
-    height: 190px;
-    width: 280px;
-    margin: 60px;
-    background-color: forestgreen;
-  }
-  .my-flex-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-  }
-  .my-flex-block{
-    flex-basis: auto;
-    height: 380px;
-    width: 380px;
-    margin: 2px;
-  }
-  #item1{
-    background-color: red;
-  }
-  #item2{
-    background-color: cornflowerblue;
-  }
-  #item3{
-    background-color: yellow;
-  }
-  #bottom{
-    background-color: grey;
-    margin: 30px;
-    height: 70px;
-  }
 
+
+.container {
+  padding: 26px 19px 0;
+}
+
+.header {
+  width: 50%;
+  height: 100px;
+  background-color: #358265;
+  margin: 0 auto;
+}
+
+.two-columns_item {
+  display: inline-block;
+  width: 50%;
+}
+
+.green {
+  height: 100 px;
+  background-color: green;
+}
+
+.three-columns_item {
+  display: inline-block;
+  width: 33.3%;
+}
+
+.red
+.blue
+.yellow {
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+  margin: 0 auto;
+}
