@@ -5,32 +5,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./main.scss">
-  <title>figma</title>
+  <title>Orange Rabbit</title>
   <script src="./js/main.js" defer="/script"></script>
 </head>
 <body>
-  <div class="container">
-    <div class="header"></div>
-    <div class="two-columns">
-      <div class="two-columns_item">
-        <div class="green"></div>
+  <div class="page-container">
+    <header class="page-header">
+      <div class="container">
+        <div class="header_items">
+          <div class="logo">
+          @@include("./partials/orange rabbit/logo.html")
+          </div>
+          <div class="menu">
+          @@include("./partials/orange rabbit/menu.html")
+          </div>
+        </div>
       </div>
-      <div class="two-columns_item">
-        <div class="green"></div>
+    </header>
+    <div class="section-with-background">
+      <div class="container">
+        <div class="slogan">
+          <div class="slogan-question-1">do you like rabbits?</div>
+          <div class="slogan-question-2">do you like oranges?</div>
+        </div>
       </div>
     </div>
-    <div class="three-columns">
-      <div class="three-columns_item">
-        <div class="red"></div>
-      </div>
-      <div class="three-columns_item">
-        <div class="blue"></div>
-      </div>
-      <div class="three-columns_item">
-        <div class="yellow"></div>
+    <div class="text-column">
+      <div class="container">
+        @@include("./partials/orange rabbit/four_columns.html")
       </div>
     </div>
-    <div class="footer"></div>
+    <div class="card-list">
+      <div class="container">
+        <h2>Meet the team</h2>
+        @@include("./partials/orange rabbit/cards.html")
+      </div>
+    </div>
+    <div class="data-input-section">
+      <div class="container">
+        <h2>Send us a message...</h2>
+        @@include("./partials/orange rabbit/input_section.html")
+      </div>
+    </div>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="footer-item">copyright orange rabbit - designed by jake bhatt</div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>

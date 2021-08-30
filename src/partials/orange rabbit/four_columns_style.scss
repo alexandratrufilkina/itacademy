@@ -1,0 +1,24 @@
+.four-columns {
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+	overflow: auto;
+}
+
+.column-item {
+	padding: 10px;
+	font-size: 1em;
+}
+
+.more {
+	float: right;
+	font-style: italic;	
+}
+
+.more a {
+	text-decoration: none;
+	color: orange; 
+} 

@@ -1,0 +1,35 @@
+.cards {
+	height: 350px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.card-picture {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid orange;
+	margin: 20px 0;
+}
+
+.card-picture img {
+	width: 200px;
+	height: 200px;
+}
+
+.member-name {
+	color: dimgrey;
+}
+
+.team-position {
+	color: orange;
+}
+
+.card-item {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
