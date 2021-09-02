@@ -13,24 +13,19 @@
 .container {
 	max-width: 1200px;
 	margin: 0px auto;
-	padding: 0px 10%;
+	padding: 0px auto;
 }
 
+.page-header {
+	height: 130px;
+}
 
 .header_items {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 130px;
 }
 
-.logo {
-  float: left;
-}
-
-.menu {
-  float: right;
-}
 
 @import'./partials/orange rabbit/logo_style.scss';
 
@@ -46,17 +41,20 @@
 	border-bottom: 5px solid orange;
 }
 
-.slogan {
+.section-with-background .container{
+	height: 100%;
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 }
 
-.slogan:before {
-	content: "";
-	display: block;
-	height: 130px;
+.slogan{
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+
+
 
 .slogan-question-1, .slogan-question-2 {
 	opacity: 0.8;
@@ -80,12 +78,18 @@
 @import'./partials/orange rabbit/four_columns_style.scss';
 
 
-h2 {
+
+.add-heading {
+	height: 100%;
+	margin: 30px 0;
+}
+
+
+.add-heading h2 {
   font-size: 3em;
   color: orange;
   text-decoration: underline;
   text-align: center;
-  margin: 30px 0;
 }
 
 
