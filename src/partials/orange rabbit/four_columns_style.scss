@@ -1,11 +1,11 @@
 .four-columns {
 	width: 100%;
-	display: inline;
+	display: flex;
 }
 
 .column-item {
 	display: inline-block;
-	width: 250px;
+	width: 25%;
 	font-size: 1em;
 	margin: 20px;
 }
