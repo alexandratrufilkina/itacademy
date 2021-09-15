@@ -1,6 +1,11 @@
+@font-face {
+	font-family: 'Josefin Sans';
+	src: url( '../font/JosefinSans-Italic-VariableFont_wght.ttf');
+}
+
 * {
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', Arial, sans-serif;
 }
 
 .page-container {
