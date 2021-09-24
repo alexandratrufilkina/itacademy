@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./main.scss">
-    <title>First project</title>
+    <title>Rating</title>
     <script src="./js/main.js" defer></script>
   </head>
   <body>
-    <h1 id="anchor">Inline tags</h1>
-    <section>
-      <h2>Links</h2>
-    <a href="http://ya.ru" target="value">Go to yandex</a>
-    <a href=".about-us.html">About us</a>
-    </section>
-    <section>
-      <h2>Image</h2>
-      <p>exterlan link</p>
-      <img src="https://n1s1.elle.ru/48/7b/36/487b36300c62c5f0cb905da52aa874b4/728x486_1_30b570c2f6c0da65bb56095068e05768@940x627_0xc0a839a4_18087198581488362059.jpeg"alt="cat">
-    </section>
-    <a href="#anchor">Top</a>
+    <div class="wrapper">
+        <h1 class="rating__heading">Rating</h1>
+        <div class="rating__group">
+          <input class="rating__item" type="radio" name="rating" value="1" checked>
+          <input class="rating__item" type="radio" name="rating" value="2">
+          <input class="rating__item" type="radio" name="rating" value="3">
+          <input class="rating__item" type="radio" name="rating" value="4">
+          <input class="rating__item" type="radio" name="rating" value="5">
+        </div>
+    </div>
   </body>
 </html>

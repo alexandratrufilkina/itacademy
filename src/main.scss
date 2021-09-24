@@ -2,4 +2,64 @@ body * {
   outline: 1px solid lightgrey;
 }
 
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
 
+.rating__heading {
+  margin-bottom: 0.5em;
+  padding: 0;
+  font-size: 2em;
+}
+
+
+.rating__group {
+  position: relative;
+  width: 10em;
+  height: 2em;
+  background-image: url(../img/star1.png);
+  background-size: 2em auto;
+}
+
+
+.rating__item {
+  appearance: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2em; 
+  font-size: inherit;
+  margin: 0;
+  background-size: 2em auto;
+}
+
+.rating__item:checked,
+.rating__item:hover {
+  background-image: url(../img/star2.png);
+}
+
+.rating__item:nth-of-type(1) {
+  z-index: 5;
+  width: 20%;
+}
+
+.rating__item:nth-of-type(2) {
+  z-index: 4;
+  width: 40%;
+}
+
+.rating__item:nth-of-type(3) {
+  z-index: 3;
+  width: 60%;
+}
+
+.rating__item:nth-of-type(4) {
+  z-index: 2;
+  width: 80%;
+}
+
+.rating__item:nth-of-type(5) {
+  z-index: 1;
+  width: 100%;
+}
